@@ -87,4 +87,4 @@ def upload():
     return("Uploaded")
 
 
-app.run(debug=True) 
+app.run() 
