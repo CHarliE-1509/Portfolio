@@ -87,4 +87,4 @@ def upload():
     return("Uploaded")
 
 
-app.run() 
+app.run(debug=False,host='0.0.0.0') 
