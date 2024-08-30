@@ -21,7 +21,7 @@ def upload():
         fullName=request.form.get("fullName")
         Title_1=request.form.get("title_1")
         Title_2=request.form.get("title_2")
-        Title_3=request.form.get("title_2")
+        Title_3=request.form.get("title_3")
         Aspire=request.form.get("Asp")
         PhoneNumber=request.form.get("PhoneNumber")
         Address=request.form.get("Address")
