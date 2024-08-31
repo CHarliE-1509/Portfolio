@@ -72,7 +72,6 @@ def upload():
         Bio=request.form.get("Bio")
         WBio=request.form.get("WorkBio")
 
-        print(e_mail,fullName)
 
     return render_template("index.html", em=e_mail,fname=fullName,T1=Title_1,T2=Title_2,
                             T3=Title_3,asp=Aspire,github=GithubID,addrs=Address,S1=Skill01,
