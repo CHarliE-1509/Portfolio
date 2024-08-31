@@ -56,7 +56,7 @@ def upload():
         Skillscore02=request.form.get("Skillscore02")
         Skillscore03=request.form.get("Skillscore03")
         Skillscore04=request.form.get("Skillscore04")
-        Skillscore05=request.form.get("Skillscore06")
+        Skillscore05=request.form.get("Skillscore05")
         Gskills=request.form.get("Gen_Skills")
         Project01=request.form.get("Project01")
         Project02=request.form.get("Project02")
